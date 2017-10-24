@@ -1,34 +1,165 @@
-/*!
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT
- */
+.navbar{
+    opacity: 0;
+}
+hr {
+    padding-top:1vh;
+    width: 20vw;
+}
+
+.typed {
+    font-size: 2em;
+}
+
+header div {
+    display:flex;
+    justify-content: center;
+}
 
 body {
-    padding-top: 54px;
+    margin: 0;
+    padding: 0;
 }
 
-@media (min-width: 992px) {
-    body {
-        padding-top: 56px;
-    }
+/* navbar */
+
+.navbar-brand {
+    font-size: 1.5em;
 }
 
-header.masthead {
-    background: url('../img/header.jpg') no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
+#more {
+    margin-top: 2em;
+}
+
+.navbar-brand img {
+    width: 50px;
+    margin:0;
+}
+
+.navbar-default {
+    font-size: 1.5em;
+    padding: 0 2vw;
+}
+
+
+/* hero */
+.overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-position: center;
+    background-image: url(../img/header.jpg);
     background-size: cover;
-    -o-background-size: cover;
+    background-repeat: no-repeat;
+    max-width:100%;
+    height: 100vh;
+    /* background-color: rgba(0,0,0,1); Black background with opacity */
 }
 
-header.masthead > .overlay {
-    padding: 5rem 0;
-    text-align: center;
-    background: rgba(0, 0, 0, 0.6);
+.page-header {
+    border-bottom-color: rgba(0, 0, 0, 0.39);
 }
 
-@media (min-width: 992px) {
-    header.masthead > .overlay {
-        padding: 10rem 0;
-    }
+
+/* about me */
+
+#about {
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-position: center;
+    background-image: url(../img/aboutme.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.3);        
+}
+
+#about .row div {
+    padding: 0 5em;
+}
+
+#about .title {
+    color: white;
+    padding-bottom: 2em;
+}
+
+#about p {
+    color: white;
+}
+
+#about .container {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+#about img {
+    padding: 0 2em;
+}
+
+
+/* portfolio */
+
+#portfolio {
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-position: center;
+    background-image: url(../img/portfolio.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow:inset 0 0 0 2000px rgba(255, 255, 255, 0.616);   
+}
+
+#portfolio .container-fluid {
+    padding: 5% 5%;
+}
+
+#portfolio .project {
+    padding: 0;
+}
+
+#portfolio .project div {
+    margin: 1em;
+}
+
+#portfolio .project div img {
+    box-shadow: 3px 3px 3px #888888;
+    max-width: 100%;
+}
+
+#portfolio .project div p {
+    padding-top: 1em;
+    font-size: 2em;
+}
+
+#portfolio .project div img:hover {
+    box-shadow: 10px 10px 8px #888888;
+    transform: translate(-10px, -10px);
+    transition: transform 0.2s;
+}
+
+/* footer */
+
+#contact {
+    background-color: rgb(199, 199, 199);
+}
+
+#contact li {
+    padding: 4em 8em;
+}
+
+#contact .icons {
+    margin: 3vh auto;
+}
+
+#contact p {
+    font-size: 1.5em;
+}
+
+#contact li:hover {
+    transform: scale(1.5);
+    transition: transform 0.5s;
 }

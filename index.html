@@ -1,149 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <title>Ivan Yip - Learning how to code</title>
 
-    <title>Ivan Yip - Learning how to code</title>
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+  <!-- Custom styles for this template -->
+  <link rel="stylesheet" href="css/main.css">
+</head>
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="css/main.css" rel="stylesheet">
-
-  </head>
-
-  <body>
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">Welcome</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+<body>
+  <!-- Navigation -->
+  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top affix-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+          aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Album</a>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="album/hike.html">Hiking</a>
-                <a class="dropdown-item" href="album/travel.html">Travel</a>
-                <a class="dropdown-item" href="album/foodies.html">Foodies</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Contact</a>
-            </li>
-          </ul>
+        <a class="navbar-brand" href="#">
+          <i class="fa fa-camera-retro"></i> Ivan</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="navbar-example">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="#about">About me </a>
+          </li>
+          <li>
+            <a href="#portfolio">Portfolio </a>
+          </li>
+          <li>
+            <a href="#contact">Contact </a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+
+  <!-- header -->
+
+  <header>
+    <div class="overlay">
+      <div class="page-header">
+        <h1>Welcome to my website.</h1>
+      </div>
+      <div class="typed"></div>
+      <a data-scroll class="btn btn-primary btn-lg" id="more" href="#about">Find out more</a>
+    </div>
+  </header>
+
+  <!-- about me -->
+  <section id="about">
+    <div class="container">
+      <div class="row text-center title">
+        <h1>About me</h1>
+        <hr>
+      </div>
+      <div class="row">
+        <div class="col-md-5 col-sm-5 col-xs-12">
+          <img src="img/profile.jpg" alt="profile" class="img-circle img-responsive">
+        </div>
+        <div class="col-md-7 col-sm-7 col-xs-12">
+          <p class="lead">I am a Hong Kong based developer.I build websites and mobile APPs. I received my training from AccelerateHK.</p>
+          <br>
+          <p class="lead">Their bootcamp has taught me how to code in HTML, CSS, Javascript, jquery and more.</p>
+          <br>
+          <p class="lead">I am also interested in technologies like blockchains, A.I. and data science.</p>
+          <p class="lead"></p>
         </div>
       </div>
-    </nav>
+    </div>
+  </section>
 
-    <header class="masthead">
-      <div class="overlay">
-        <div class="container">
-            <blockquote class="blockquote text-white">
-                <p class="mb-0">“The future belongs to those who believe in the beauty of their dreams.” </p>
-                <footer class="blockquote-footer">Eleanor Roosevelt<cite title="Source Title"></cite></footer>
-            </blockquote>
-          <!-- <h1 class="display-1 text-white"></h1>
-          <h2 class="display-4 text-white"></h2> -->
-        </div>
+  <!-- portfolio -->
+  <section id="portfolio">
+    <div class="container-fluid">
+      <div class="text-center">
+        <h1>My projects</h1>
+        <hr class="small">
       </div>
-    </header>
-
-    <section>
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6 order-2">
-            <div class="p-5">
-              <img class="img-fluid rounded-circle" src="img/profile.jpg" alt="">
-            </div>
+      <div class="row text-center">
+        <div class="col-sm-4 col-xs-12 project">
+          <div>
+            <img src="img/project1.jpeg" alt="project a" class="img-responsive">
+            <p>A creative project</p>
           </div>
-          <div class="col-md-6 order-1">
-            <div class="p-5">
-              <h2 class="display-4">About me:</h2>
-              <p>Hi there, friends. My name is Ivan, I am a student studying programming. I was a executive assistant in the Government. I learned some coding by myself in my leisure time. It turns out to be my interest and what I am passionate about. So I decided to turn it into my profession and hope that I will become a world-class developer! </p>
-            </div>
+          
+        </div>
+        <div class="col-sm-4 col-xs-12 project">
+          <div>
+              <img src="img/project2.jpeg" alt="project b" class="img-responsive">
+              <p>A wonderful project</p>
           </div>
         </div>
-      </div>
-    </section>
-
-    <section>
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6">
-            <div class="p-5">
-              <img class="img-fluid rounded-circle" src="img/hobbies.jpg" alt="">
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="p-5">
-              <h2 class="display-4">Hobbies:</h2>
-              <ul>
-                <li>Hiking</li>
-                  <p>Hiking is a great way to restore our mental energy, as well as exploring the mystery places in the city we live</p>
-                <li>Programming</li>
-                  <p>I am interested in learning different programming skills, like web development, data science and algorithm and data structure.</p>
-                <li>Photography</li>
-                  <p>Definitely like to capture the most beautiful scenes for our memories.</p>
-                <li>Travel</li>
-                  <p>Travel opens our eyes to the world and always fills us with new ideas</p>
-                <li>Reading</li>
-                  <p>Reading is a important habit for personal growth and researches show that it can also improve our healths!</p>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6 order-2">
-            <div class="p-5">
-              <img class="img-fluid rounded-circle" src="img/dream.jpg" alt="">
-            </div>
-          </div>
-          <div class="col-md-6 order-1">
-            <div class="p-5">
-              <h2 class="display-4">Dream:</h2>
-              <p>My dream is to become an awesome developer! I wish I could use the power of programming to transform the way we work. I hope my work could make the world a better place some day.</p>
-            </div>
+        <div class="col-sm-4 col-xs-12 project">
+          <div>
+            <img src="img/project3.jpeg" alt="project c" class="img-responsive">
+            <p>An awesome project</p>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Footer -->
-    <footer class="py-5 bg-light">
-      <div class="container">
-        <p class="m-0 text-center text-dark">Copyright &copy; Ivan Yip</p>
+  <!-- Footer -->
+  <footer id="contact">
+    <div class="container">
+      <div class="text-center">
+        <h2 style="padding-top: 5%">Contact me through:</h2>
+        <hr class="small">
       </div>
-      <!-- /.container -->
-    </footer>
+      <ul class="icons list-inline text-center">
+        <li>
+          <a href="https://facebook.com/ivany" target="_blank" class="fa fa-facebook fa-4x">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/ivan1229/" target="_blank" class="fa fa-instagram fa-4x">
+          </a>
+        </li>
+        <li>
+          <a href="mailto:ivan_yip@msn.com" class="fa fa-envelope fa-4x">
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/yipivan" target="_blank" class="fa fa-github-square fa-4x">
+          </a>
+        </li>
+      </ul>
+      <p class="text-center">Copyright 2017 &copy; Ivan Yip</p>
+    </div>
+  </footer>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/popper/popper.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
-  </body>
+  <!-- scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+  <script src="https://use.fontawesome.com/e587f1714a.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.6/typed.min.js" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/12.1.5/js/smooth-scroll.min.js"></script>
+  <script src="js/main.js" type="text/javascript"></script>
+</body>
 
 </html>
